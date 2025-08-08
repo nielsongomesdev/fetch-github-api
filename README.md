@@ -17,5 +17,3 @@ Projeto simples para buscar usuários do GitHub utilizando a API oficial e exibi
 - CSS3
 - JavaScript (ES6+)
 - Fetch API
-
--
