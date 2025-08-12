@@ -1,19 +1,14 @@
 # Fetch GitHub API
 
-Projeto simples para buscar usuários do GitHub utilizando a API oficial e exibir informações do perfil de forma responsiva.
+Aplicação web para buscar e exibir perfis de usuários do GitHub de forma responsiva.
 
-## Funcionalidades
-- Busca de usuários do GitHub por nome de usuário
-- Exibição de avatar, nome e bio
-- Layout responsivo (mobile first)
+**Funcionalidades:**
+- Busca por nome de usuário
+- Exibe avatar, nome, bio, repositórios e eventos recentes
 
-## Como usar
+**Como usar:**
 1. Clone o repositório
-2. Abra o arquivo `index.html` em seu navegador
-3. Digite o nome de usuário do GitHub e clique em "Buscar"
+2. Abra o `index.html` no navegador
 
-## Tecnologias
-- HTML5
-- CSS3
-- JavaScript (ES6+)
-- Fetch API
+**Tecnologias:**
+- HTML, CSS (mobile first), JavaScript (ES6+), Fetch API
