@@ -6,6 +6,7 @@ const user = {
     followers: 0,
     following: 0,
     repositories: [],
+    events: [],
     setInfo(gitHubUser){
         this.avatarUrl = gitHubUser.avatar_url
         this.name = gitHubUser.name
@@ -23,6 +24,9 @@ const user = {
             watchers: repo.watchers_count,
             language: repo.language
         }))
+    },
+    setEvents(events) {
+        this.events = events.filter(event => event.type === 'PushEvent' || event.type === 'CreateEvent')
     }
 }
 
